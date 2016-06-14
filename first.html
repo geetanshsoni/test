@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Exam Result</title>
+</head>
+<body>
+    <a href="second.html">Click Here...</a>
+</body>
+<script>
+history.pushState(null, null, document.title);
+window.addEventListener('popstate', function () {
+    history.pushState(null, null, document.title);
+});
+</script>
+</html>
